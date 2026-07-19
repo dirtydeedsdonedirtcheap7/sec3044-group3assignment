@@ -13,8 +13,6 @@ An operational, low-latency containerized microservice deployed to evaluate and 
 
 ## 📂 Repository Architecture
 ```text
-├── dataset/
-│   └── .gitkeep                 # Dynamic target for raw dataset placement
 ├── models/
 │   ├── ids_rf_model.pkl         # Serialized Random Forest weights
 │   └── model_features.pkl       # Serialized training feature schema index
